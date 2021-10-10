@@ -1,0 +1,15 @@
+hello guys, today I'm gonna showing you how to block websites in windows operating system, so lets get started-
+
+step1: run the cmd as administrator
+step2: enter the following command
+
+   "notepad C:/Windows/System32/drivers/etc/hosts"
+
+step3: A notepad text file named hosts will open scroll down and write in the end
+
+    "127.0.0.1 URL"
+
+for example: you I've to block youtube 
+     "127.0.0.1 youtube.com"
+
+step4: save the file and exit from the cmd. now our system will not allow the web traffic from youtube.
